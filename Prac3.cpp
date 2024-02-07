@@ -148,6 +148,7 @@ int main()
             for(i=1;i<=n;i++)
             {
                 cars[i].fualputdata(choice);
+                cout<<endl;
             }
             break;
 
@@ -160,6 +161,7 @@ int main()
         for (i=1;i<=n;i++)
         {
             cars[i].ch_3_putdata(range);
+            cout<<endl;
         }
         break;
     default:
