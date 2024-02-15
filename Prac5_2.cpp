@@ -37,11 +37,11 @@ int main()
 
     circle *c1=new circle();
     c1->display();
-    delete c1;
     circle *c2=new circle(20);
     c2->display();
-    delete c2;
     circle *c3=new circle(*c1);
     c3->display();
+    delete c1;
+    delete c2;
     delete c3;
 }
